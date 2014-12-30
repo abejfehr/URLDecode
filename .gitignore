@@ -1,2 +1,6 @@
 
 *.out
+
+newmain.c
+
+*.gch

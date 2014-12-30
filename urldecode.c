@@ -35,7 +35,6 @@ char *urlDecode(const char *str) {
 
           /* remove the hex */
           memmove(&dStr[i+1], &dStr[i+3], strlen(&dStr[i+3])+1);
-//        realloc(&dStr[i+1], strlen(&dStr[i+1])+1);
 
           dStr[i] = x;
         }
