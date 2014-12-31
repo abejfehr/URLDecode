@@ -87,10 +87,10 @@ int main(void) {
 
 
   /* TEST 9 */
-  printf("Test 9: A mix of +'s for spaces\n");
+  printf("Test 9: A mix of +'s for spaces(which don't get decoded)\n");
   printf("-------------------------------\n");
   printf("Input:           a%%20b+c+d");
-  printf("Expected Output: a b c d)\n");
+  printf("Expected Output: a b+c+d)\n");
   char *test9 = urlDecode("a%20b+c+d");
   printf("Actual Output:   %s\n\n\n", test9);
   free(test9);

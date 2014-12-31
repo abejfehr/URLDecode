@@ -39,7 +39,6 @@ char *urlDecode(const char *str) {
           dStr[i] = x;
         }
       }
-      else if(dStr[i] == '+') { dStr[i] = ' '; }
     }
   }
 
