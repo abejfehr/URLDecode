@@ -1,6 +1,4 @@
-
 *.out
-
 newmain.c
-
 *.gch
+Makefile.in
